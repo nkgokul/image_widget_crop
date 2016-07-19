@@ -192,7 +192,7 @@ class ImageCropWidget extends ImageWidget {
       '#default_value' => $this->getSetting('crop_list'),
       '#multiple' => TRUE,
       '#required' => TRUE,
-      '#description' => $this->t('The type of crop to apply to your image. If your Crop Type not appear here, set an image style use your Crop Type'),
+      '#description' => $this->t('The type of crop to apply to your image. If your Crop Type does not appear here, set an image style to use your Crop Type'),
       '#weight' => 16,
     ];
 
